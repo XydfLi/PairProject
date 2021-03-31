@@ -1,8 +1,21 @@
 /*.card{*/
 /*    font-family: 'Arial Normal', 'Arial', sans-serif;*/
 /*}*/
+
+body{
+    /*background-image: url(../img/paper-statistics.jpg);*/
+    /*background-repeat:no-repeat;*/
+    background-color: #c2eedf;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
 #title1{
-    color: white;
+    color: black;
     position: absolute;
     top: 90px;
     left: 90px;
@@ -44,13 +57,26 @@
     left: 1034px;
 }
 
-body{
-    background-image: url(../img/paper-statistics.jpg);
-    background-repeat:no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center bottom;
+#title2{
+    color: black;
+    position: absolute;
+    top: 1050px;
+    left: 90px;
 }
+
+#t1{
+    /*border: solid 1px black;*/
+    width: 650px;
+    position: absolute;
+    top: 1120px;
+    left: 120px;
+}
+
+#t2{
+    /*border: solid 1px black;*/
+    width: 650px;
+    position: absolute;
+    top: 1070px;
+    left: 770px;
+}
+

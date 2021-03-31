@@ -14,6 +14,10 @@ $(document).ready(function () {
     function showOne(URL, nowPage, back) {
         selectOne(URL + "/" + nowPage + back);// 获取数据
 
+        if (items.length < 1) {
+            alert("找不到您的论文数据！");
+        }
+
         $("#item-list").pagination({
             currentPage: nowPage,
             totalPage: Math.ceil(totalCount/PAGE_COUNT),

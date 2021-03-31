@@ -2,7 +2,7 @@
 
 ## 作业链接
 
-作业博客链接：![作业博客链接]()
+作业博客链接：[https://www.cnblogs.com/w-wwh/p/14594059.html](https://www.cnblogs.com/w-wwh/p/14594059.html)
 
 ## 结对学号
 
@@ -28,6 +28,8 @@
 
 ## 运行环境
 
+> 注：因为使用了bootstrap4，可能对一些浏览器不兼容
+
 * 浏览器：Chrome（推荐）、Firefox、Internet Explorer（版本10+）
 * 后端：JDK1.8（推荐）、CentOS 7.9 x64（推荐）
 
@@ -43,4 +45,5 @@
 * 在服务器上下载源码（Source code）并解压
 * 修改221801334&221801230/PaperCV/src/main/resources/static/js/base.js文件中的httpRoot变量为自己服务器的IP
 * 打包为jar包并执行
+* 执行方法一
     
